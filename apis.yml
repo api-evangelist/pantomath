@@ -1,21 +1,52 @@
 aid: pantomath
 name: Pantomath
-description: Pantomath is a company surfaced as a portfolio company of general-catalyst, sierra-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Pantomath is an AI-powered Data Operations Center that monitors, manages, and
+  automatically resolves issues across an organization's entire data analytics
+  ecosystem. The platform combines 24/7 automated data monitoring, cross-platform
+  data lineage and impact analysis, AI-driven incident detection, and autonomous
+  root-cause analysis and remediation to deliver full self-resolution of issues
+  across the data stack. Pantomath integrates with 60+ platforms spanning data
+  warehouses (Snowflake, Redshift, BigQuery, Databricks), orchestration (Airflow,
+  dbt, Astronomer), integration (Fivetran, Informatica, Matillion), BI/reporting
+  (Power BI, Tableau, Looker, Sigma), and notification channels (Slack, Teams,
+  PagerDuty). It exposes a first-party API-key-authenticated ingestion API and a
+  published JavaScript SDK for sending custom real-time job and dataset logs.
+  Backed by General Catalyst (Series B, $30M) and Snowflake Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/pantomath/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
 - sierra-ventures
+- snowflake-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/62eb9994831f69b55dba91c3/6696bce927aee1c5c91cffd8_Pantomath_Observability_Logo.png
 tags:
 - Company
+- Data Observability
+- Data Operations
+- Data Pipeline Monitoring
+- Data Lineage
+- Data Quality
+- Data Reliability
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +55,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://getpantomath.com/
+  url: https://www.pantomath.com/
+- type: Blog
+  url: https://www.pantomath.com/blog
+- type: TermsOfService
+  url: https://www.pantomath.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.pantomath.com/privacy-policy
+- type: SignUp
+  url: https://www.pantomath.com/get-a-demo
+- type: GitHubOrganization
+  url: https://github.com/Pantomath-Dev
+- type: TrustCenter
+  url: https://trust.pantomath.com/
+- type: Packages
+  url: packages/pantomath-packages.yml
+- type: SDKs
+  url: packages/pantomath-packages.yml
+- type: Authentication
+  url: authentication/pantomath-authentication.yml
+- type: DomainSecurity
+  url: security/pantomath-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

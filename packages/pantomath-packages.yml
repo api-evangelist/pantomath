@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://registry.npmjs.org/@pantomath/sdk-javascript
+notes: >-
+  First-party client library discovered on the npm registry under the official
+  @pantomath scope (author "Pantomath", repository github.com/Pantomath-Dev).
+  Pantomath's integrations page advertises Java, JavaScript, and Python SDKs, but
+  only the JavaScript SDK is published to a public package registry; the Java and
+  Python libraries are not discoverable on Maven Central or PyPI (the PyPI
+  "pantomath" project is an unrelated third-party package by author "Idin").
+packages:
+- language: javascript
+  registry: npm
+  name: "@pantomath/sdk-javascript"
+  url: https://www.npmjs.com/package/@pantomath/sdk-javascript
+  install: npm i @pantomath/sdk-javascript
+  version: 3.0.0
+  repository: https://github.com/Pantomath-Dev/sdk-javascript
+  description: Send custom, real-time job and dataset logs to Pantomath.
+  official: true

@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: searched
+source: https://registry.npmjs.org/@pantomath/sdk-javascript
+docs: https://www.npmjs.com/package/@pantomath/sdk-javascript
+notes: >-
+  Pantomath does not publish a public OpenAPI definition or developer
+  documentation portal (docs./api./developer. subdomains do not resolve), so this
+  profile is derived from the published first-party JavaScript SDK rather than a
+  machine-readable spec. The SDK configures the ingestion API with a base URL and
+  an API key (environment variables PANTOMATH_API_BASE_URL and PANTOMATH_API_KEY;
+  SDK constructor accepts { apiKey }), indicating API-key authentication over a
+  per-tenant base URL.
+summary:
+  types:
+  - apiKey
+  api_key_in:
+  - env/config
+schemes:
+- name: apiKey
+  type: apiKey
+  in: config
+  parameter: PANTOMATH_API_KEY
+  description: >-
+    API key supplied to the Pantomath SDK (apiKey constructor option / the
+    PANTOMATH_API_KEY environment variable) and sent against the tenant's
+    PANTOMATH_API_BASE_URL ingestion endpoint.
+  sources:
+  - https://registry.npmjs.org/@pantomath/sdk-javascript
