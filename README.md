@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Pantomath is a company surfaced as a portfolio company of general-catalyst, sierra-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Pantomath is an AI-powered Data Operations Center that monitors, manages, and automatically resolves issues across an organization's entire data analytics ecosystem. The platform combines 24/7 automated data monitoring, cross-platform data lineage and impact analysis, AI-driven incident detection, and autonomous root-cause analysis and remediation to deliver full self-resolution of issues across the data stack. Pantomath integrates with 60+ platforms spanning data warehouses (Snowflake, Redshift, BigQuery, Databricks), orchestration (Airflow, dbt, Astronomer), integration (Fivetran, Informatica, Matillion), BI/reporting (Power BI, Tableau, Looker, Sigma), and notification channels (Slack, Teams, PagerDuty). It exposes a first-party API-key-authenticated ingestion API and a published JavaScript SDK for sending custom real-time job and dataset logs. Backed by General Catalyst (Series B, $30M) and Snowflake Ventures.
 
-Backed by: general-catalyst, sierra-ventures — https://getpantomath.com/
+**Areas:** Company · Data Observability · Data Operations · Data Pipeline Monitoring · Data Lineage · Data Quality · Data Reliability · Analytics
+
+## Pantomath on APIs.io
+
+Everything profiled for Pantomath is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pantomath/](https://apis.io/providers/pantomath/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pantomath Authentication](https://apis.io/security/pantomath/pantomath-authentication/)
+- [Pantomath Domain Security](https://apis.io/security/pantomath/pantomath-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.pantomath.com/)
+- [Sign up](https://www.pantomath.com/get-a-demo)
+- [Blog](https://www.pantomath.com/blog)
+- [Trust centre](https://trust.pantomath.com/)
+- [Terms of service](https://www.pantomath.com/terms-of-use)
+- [Privacy policy](https://www.pantomath.com/privacy-policy)
+- [GitHub](https://github.com/Pantomath-Dev)
+
+## API Evangelist rating
+
+**Kin Score 19.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 42.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pantomath/](https://apis.io/providers/pantomath/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Pantomath: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pantomath/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
